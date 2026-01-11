@@ -1,4 +1,4 @@
-### KreativStorm-project2
+### KreativStorm-project2(Rock, Paper, Scissors Game)
 
 ## ✂️ Rock, Paper, Scissors Game - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
@@ -16,7 +16,7 @@
 
 ### The Project
 
-The task was to create a classic version of 'Rock, paper, scissors' game using plain JS that can be played on the browser's console.
+The task was to create a classic version of the Rock, Paper, Scissors game using plain JS that can be played on the browser's console.
 
 ### Links
 
