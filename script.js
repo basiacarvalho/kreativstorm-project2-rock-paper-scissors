@@ -223,9 +223,11 @@ function terminateOrContinueGame() {
   }
 }
 
-alert(`Welcome to the "Rock, Paper, Scissors" game! Let's play!`);
 alert(
-  `Please read the game instruction which will be displayed in the console after you click "OK"`
+  `Welcome to the "Rock, Paper, Scissors" game! Open your console first and then click "OK"`
+);
+alert(
+  `Please read the game instructions which will be displayed in the console after you click "OK"`
 );
 console.log(welcomeMessage, styleForWelcomeMessage);
 console.log(villainIntro, styleForVillainIntro);
