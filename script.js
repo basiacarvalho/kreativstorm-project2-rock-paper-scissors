@@ -2,11 +2,6 @@ const styleForWelcomeMessage =
   "color:blue; font-family:monospace; font-size: 16px; font-weight: bold;";
 
 const welcomeMessage = `
-
-
-
-
-
 %c__________________________________________________________________
 
         ~~ Welcome to the "Rock, Paper, Scissors" game! ~~
@@ -20,25 +15,24 @@ const villainIntro = `
 But you already know that don\'t you?
 You are here to stop me from taking over the WWW.
 Well for that you will have to beat me in a game!
-
 `;
 
 const styleForGameInstruction = "font-size: 14px; font-weight: bold;";
 
 const gameInstruction = `%c//////////////////////////////////////////////////////////////////////////////////////////
 
-So. Are you willing to try your luck and win over... me?!
-Well that will be interesting.
+Are you willing to try your luck and win over... me?!
+That might be interesting.
 
-You know the drill, each round, you will choose one of these 3 representatives:
+You know the drill, each round you choose one of these 3 representatives:
 scissors / paper / rock
 
-Here are the rules:
+Here are the core rules:
 - "scissors" cuts "paper"
 - "paper" wraps "rock"
 - "rock" breaks "scissors"
 
-Besides the base rules of the game, why don't we make it more appealing?
+Besides the base rules, let's make it more appealing:
 - You can choose ONLY one representative per turn.
 - The game will have 5 rounds.
 - After each round, the winner of the round will be displayed.
@@ -54,7 +48,7 @@ I... will... know...
 And the round will not count.
 So be a good meat sack, and play WRIGHT!!!!
 
-Let the games begin!!!
+Let the game begins!!!
 Good luck! You will need it! Muahahahahahaha
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -171,7 +165,8 @@ function selectUserWinsMessage() {
     "You did it! How?!!!",
     "Victory! Somehow!",
     "Congratulations! I don't understand how either...",
-    "Could you be more irritant?!",
+    "Could you be less irritant?!",
+    "Beginners luck",
   ];
   return userWinsMessages[Math.floor(Math.random() * userWinsMessages.length)];
 }
@@ -180,7 +175,6 @@ function selectComputerWinsMessage() {
   const computerWinsMessages = [
     "Point for me!",
     "Are you even trying?",
-    "Don't give up!",
     "Try harder.",
     "Am I the only one playing here?",
     "Luck is not on your side! Hahahaha",
