@@ -20,8 +20,8 @@ The task was to create a classic version of the Rock, Paper, Scissors game using
 
 ### Links
 
-- Source code repository URL: [Github](https://github.com/basiacarvalho/kreativstorm-project2-game)
-- Live Site URL: [Live demo](https://basiacarvalho.github.io/kreativstorm-project2-game/)
+- Source code repository URL: [Github](https://github.com/basiacarvalho/kreativstorm-project2-rock-paper-scissors)
+- Live Site URL: [Live demo](https://basiacarvalho.github.io/kreativstorm-project2-rock-paper-scissors/)
 
 ### Screenshots
 
